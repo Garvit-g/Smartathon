@@ -3,31 +3,24 @@ import pandas as pd
 from PIL import Image 
 import tempfile
 import cv2 as cv
+from streamlit_option_menu import option_menu
+@st.cache
+def load_image(image_file):
+	img = Image.open(image_file)
+	return img 
 
 def main():
-		st.title("Smartathon")
-		#SideBar
-		with st.sidebar:
-			radio_op = st.radio("MENU", ("EDA", "Model", "About"))			
-		if(radio_op == "Model"):
+	st.title("Smartathon")	
+	with st.sidebar:
+		choose = option_menu("MENU", ["About", "EDA", "Model"])
+	if choose == "Model":
 			st.subheader("Detection and evaluation of the following elements on street imagery taken from a moving vehicle")
-			video_file = st.file_uploader("Upload Video",type=['mp4','mp3'])
-			if video_file is not None:
-					file_details = {"Filename":video_file.name,"FileType":video_file.type,"FileSize":video_file.size}
-					st.write(file_details)
-					tfile = tempfile.NamedTemporaryFile(delete=False) 
-					tfile.write(video_file.read())
-					vf = cv.VideoCapture(tfile.name)
-					stframe = st.empty()
-
-					while vf.isOpened():
-							ret, frame = vf.read()
-							if not ret:
-									print("Can't receive frame (stream end?). Exiting ...")
-									break
-							# gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
-							stframe.image(frame)
-		
+			image_file = st.file_uploader("Upload Image",type=['png','jpeg','jpg'])
+			if image_file is not None:
+				file_details = {"Filename":image_file.name,"FileType":image_file.type,"FileSize":image_file.size}
+				st.write(file_details)
+				img = load_image(image_file)
+				st.image(img)
 
 if __name__ == '__main__':
     main()
