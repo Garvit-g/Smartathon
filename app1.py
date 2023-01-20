@@ -27,5 +27,7 @@ def main():
 									break
 							# gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
 							stframe.image(frame)
+		
+
 if __name__ == '__main__':
     main()
