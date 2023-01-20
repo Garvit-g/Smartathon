@@ -6,6 +6,7 @@ import cv2 as cv
 
 def main():
 		st.title("Smartathon")
+		#SideBar
 		with st.sidebar:
 			radio_op = st.radio("MENU", ("EDA", "Model", "About"))			
 		if(radio_op == "EDA"):
