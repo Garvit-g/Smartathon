@@ -9,7 +9,7 @@ def main():
 		#SideBar
 		with st.sidebar:
 			radio_op = st.radio("MENU", ("EDA", "Model", "About"))			
-		if(radio_op == "EDA"):
+		if(radio_op == "Model"):
 			st.subheader("Detection and evaluation of the following elements on street imagery taken from a moving vehicle")
 			video_file = st.file_uploader("Upload Video",type=['mp4','mp3'])
 			if video_file is not None:
