@@ -51,4 +51,4 @@ The [Dashboard](https://public.tableau.com/app/profile/khusheekapoor/viz/Smartat
 - [Weights](/weights): Contains the weights of the model for future use.
 - [imgs](/imgs): Contains all the images used in the README.
 
-## More Information at: [Product Description](https://docs.google.com/document/d/1lu1S894pztMraHJdqC3tFcTxCiQKqoT9m875k6xM6TM/edit?usp=sharing)
+## More Information at: [Project Report](https://docs.google.com/document/d/1lu1S894pztMraHJdqC3tFcTxCiQKqoT9m875k6xM6TM/edit?usp=sharing)
