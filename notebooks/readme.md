@@ -6,5 +6,5 @@ We trained and tested a bunch of models and have uploaded the notebooks in this 
 
 - [Exploratory Data Analysis](/notebooks/smartathon-eda.ipynb): The precursor to the Dashboard, this notebook gives us integral insights on
 the prevelance of the various types of pollution and the associativity of the different types of pollution with each other.
-- [YOLOv7](/notebooks/YOLOv7_Smartathon.ipynb): The final model used for prediction.
+- [YOLOv5](/notebooks/YOLO_v5_Smartathon.ipynb): The final model used for prediction.
 - [Experiments](/notebooks/experiments/): This folder contains all the models that did not make the cut.
