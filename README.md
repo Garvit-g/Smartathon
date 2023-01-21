@@ -4,4 +4,4 @@
 
 
 ## Proposed workflow
-![Workflow](.\imgs\smartathon.jpeg)
+![Workflow](imgs\smartathon.jpeg)
