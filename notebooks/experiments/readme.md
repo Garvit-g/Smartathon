@@ -9,3 +9,6 @@ Our team trained and tested the following models before narrowing down on the be
 - EfficientNetB4
 
 All of the above models were built using the Keras Application API as used in VGG-19. 
+
+Some other models that were open-sourced are:
+- [YOLOv7](/notebooks/experiments/YOLOv7_Smartathon.ipynb)
