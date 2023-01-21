@@ -29,6 +29,7 @@ Note that it may take a few seconds on your first run as the model clones the re
 
 ![Step 3](/imgs/s3.png "Step 3") 
 
+Alternatively, you can use this [link](https://colab.research.google.com/drive/1OUn1sCrtpWt2XoIYHIcsJxP_qO_IY9KR?usp=sharing#scrollTo=GBaO4FfHorNL) for testing the model on the example images. On opening the link, Click on Runtime-->Run all to run the notebook. To test different images, uncomment the lines of code as instructed.
 
 ## Dashboard
 
