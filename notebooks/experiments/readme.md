@@ -12,3 +12,7 @@ All of the above models were built using the Keras Application API as used in VG
 
 Some other models that were open-sourced are:
 - [YOLOv7](/notebooks/experiments/YOLOv7_Smartathon.ipynb)
+- [YOLOv5 with Focal Loss](/notebooks/experiments/Yolov5_with_focal_loss.ipynb)
+- [FastRCNN](/notebooks/experiments/samrtathon-fastrcnn.ipynb)
+- [Faster RCNN with Resnet101 Backbone](/notebooks/experiments/faster-rcnn-resnet101.ipynb)
+- [Fast RCNN with Detectron](/notebooks/experiments/fastrcnn_detectron2.ipynb)
