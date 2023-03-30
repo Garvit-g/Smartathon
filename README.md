@@ -53,3 +53,12 @@ The [Dashboard](https://public.tableau.com/app/profile/khusheekapoor/viz/Smartat
 - [imgs](/imgs): Contains all the images used in the README.
 
 ## More Information at: [Project Report](https://docs.google.com/document/d/1lu1S894pztMraHJdqC3tFcTxCiQKqoT9m875k6xM6TM/edit?usp=sharing)
+
+
+# Team 
+- [Yaswanth Biruduraju](https://github.com/Yaswanth-B)
+- [Garvit Gopalani](https://github.com/Garvit-g)
+- [Khushee Kapoor](https://github.com/khusheekapoor)
+- [Mihir Agarwal](https://github.com/mihir-agarwal)
+- [MV Srujan](https://github.com/mvsrujan)
+- [Kartikeya Tiwari](https://github.com/)
